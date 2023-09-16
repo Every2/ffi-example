@@ -47,7 +47,7 @@ result = addmodule.add(2, 3)
 print(result)  
 ```
 
-# I wanna build like a dll not .pyd
+### I wanna build like a dll not .pyd
 
 Idk why you wanted to do this, but you just need remove the `set_target_properties(addTwoIntegers PROPERTIES SUFFIX ".pyd")` line and vs should generate a .dll for you
 
@@ -82,5 +82,7 @@ I wanted to learn about ffi process from scratch, the CPython api is already an 
 # References
 
 https://en.wikipedia.org/wiki/Foreign_function_interface
+
 https://docs.python.org/3/c-api/index.html
+
 https://learn.microsoft.com/en-us/cpp/cpp/extern-cpp?view=msvc-170
