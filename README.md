@@ -68,7 +68,7 @@ setup(name='addTwoIntegers',
       ext_modules=[module])
 ```
 
-and run this commands:
+and run those commands:
 
 ```bash
 python setup.py build
